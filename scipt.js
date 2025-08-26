@@ -6,7 +6,9 @@ function imc(){
     const peso = document.getElementById('peso').value;
     const resultado = document.getElementById('resultado').value;
     
-    const valorIMC = (peso/(altura*altura))_.toFixed;
+    const valorIMC = (peso/(altura*altura))_.toFixed(1);
 
-    resultado.textcontent = `${nome}seu IMC é ${valorIMC}!`
+    resultado.textContent = `${nome}seu IMC é ${valorIMC}!`;
 }
+
+calcular.addEventListener('click',imc)
