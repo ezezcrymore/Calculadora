@@ -4,11 +4,12 @@ function imc(){
     const nome = document.getElementById('nome').value;
     const altura = document.getElementById('altura').value;
     const peso = document.getElementById('peso').value;
-    const resultado = document.getElementById('resultado').value;
-    
-    const valorIMC = (peso/(altura*altura))_.toFixed(1);
+    const resultado = document.getElementById
+    ('resultado');
 
-    resultado.textContent = `${nome}seu IMC é ${valorIMC}!`;
+    const valorIMC = (peso/(altura*altura)).toFixed(1);
+
+    resultado.textContent = `${nome} seu IMC é ${valorIMC}!`;
 }
 
-calcular.addEventListener('click',imc)
+calcular.addEventListener('click',imc);
