@@ -3,14 +3,17 @@
     flex-direction: column;
     background: red;
     width: 400px;
-    height: 100px;
+    height: 150px;
     align-items: center;
     border-radius: 20px;
     box-shadow: 0 0 10px black;
-
 }
 .input{
 
+}
+
+.input label{
+    font: bold 1.5rem serif;
 }
 
 button{
